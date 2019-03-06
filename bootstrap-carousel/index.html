@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap carousel</title>
+  <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css">
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <div class="navigation">
+    <div class="navigation-left">
+      <a href="#">Shoes</a>
+      <a href="#">Clothes</a>
+      <a href="#">Accessories</a>
+    </div>
+    <div class="navigation-center">
+      <img src="images/logo.png" alt="">
+    </div>
+    <div class="navigation-right">
+      <a href="#"><img src="images/shopping-bag.png" alt=""></a>
+      <button class="login-btn" href="#">Login</button>
+    </div>
+  </div>
+  
+  <!-- Slider wrapper -->
+  <div class="css-slider-wrapper">
+    <input type="radio" name="slider" class="slide-radio1" checked id="slider_1">
+    <input type="radio" name="slider" class="slide-radio2" id="slider_2">
+    
+    <!-- Slider Pagination -->
+    <div class="slider-pagination">
+      <label for="slider_1" class="page1"></label>
+      <label for="slider_2" class="page2"></label>
+    </div>
+
+    <!-- Slider #1 -->
+    <div class="slider slide-1">
+      <img src="images/model-1.png" alt="">
+      <div class="slider-content">
+        <h4>New Product</h4>
+        <h2>Denim Longline T-Shirt Dress With Split</h2>
+        <button type="button" class="buy-now-btn" name="button">$130</button>
+      </div>
+      <div class="number-pagination">
+        <span>1</span>
+      </div>
+    </div>
+   
+    <!-- Slider #2 -->
+    <div class="slider slide-2">
+      <img src="images/model-2.png" alt="">
+      <div class="slider-content">
+        <h4>New Product</h4>
+        <h2>Denim Longline T-Shirt Dress With Split</h2>
+        <button type="button" class="buy-now-btn" name="button">$130</button>
+      </div>
+      <div class="number-pagination">
+        <span>2</span>
+      </div>
+    </div>
+  </div>
+
+<script src="../bower_components/jquery/dist/jquery.js"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
